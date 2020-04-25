@@ -10,6 +10,7 @@ private:
     double price;
     int numStock;
 public:
+    Product();
     Product(string id, double price, int stock);
     void setPrice(double p);
     void setNumStock(int n);

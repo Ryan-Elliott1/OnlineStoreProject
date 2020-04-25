@@ -1,5 +1,9 @@
 #include "product.h"
 
+Product::Product() {
+
+}
+
 Product::Product(string id, double price, int numStock) {
     this->id = id;
     this->price = price;
