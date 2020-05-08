@@ -8,8 +8,8 @@ class Product {
 private:
     string id;
     double price;
-    int numStock;
 public:
+    int numStock;
     Product();
     Product(string id, double price, int stock);
     void setPrice(double p);
